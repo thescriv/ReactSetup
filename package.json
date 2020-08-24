@@ -6,13 +6,12 @@
   "license": "ISC",
   "scripts": {
     "dev": "parcel $npm_package_configReact_entrypoints -p $npm_package_configReact_port",
-    "build": "parcel build $npm_package_configReact_entrypoints"
+    "build": "parcel build $npm_package_configReact_entrypoints",
+    "start": "parcel ./dist/index.html"
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
-  "devDependencies": {
+    "react-dom": "^16.13.1",
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.10.4",
@@ -24,7 +23,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^2.5.1",
-    "parcel-bundler": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
     "prettier": "1.19.1"
   },
   "configReact" : {
